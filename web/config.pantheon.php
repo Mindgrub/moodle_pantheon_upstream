@@ -51,7 +51,7 @@ if (isset($_SERVER['PRESSFLOW_SETTINGS'])) {
       $CFG->dbhost    = $value['default']['default']['host'];  // eg 'localhost' or 'db.isp.com' or IP
       $CFG->dbname    = $value['default']['default']['database'];     // database name, eg moodle
       $CFG->dbuser    = $value['default']['default']['username'];   // your database username
-      $CFG->dbpass    = $value['default']['default']['username'];   // your database password
+      $CFG->dbpass    = $value['default']['default']['password'];   // your database password
       $CFG->prefix    = '';       // prefix to use for all table names
       $CFG->dboptions = array(
         'dbpersist' => false,       // should persistent database connections be
