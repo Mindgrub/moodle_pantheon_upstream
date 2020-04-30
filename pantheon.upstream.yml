@@ -2,6 +2,6 @@ api_version: 1
 php_version: 7.1
 enforce_https: transitional
 web_docroot: true
+filemount: /sites/default/files
 protected_web_paths:
-  - /files/private
-filemount: /files
+  - /sites/default/files
