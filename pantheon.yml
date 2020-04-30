@@ -1,0 +1,3 @@
+filemount: /sites/default/files
+protected_web_paths:
+  - /sites/default/files

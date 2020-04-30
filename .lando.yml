@@ -1,0 +1,6 @@
+name: mg-moodle-upstream-testing
+recipe: pantheon
+config:
+  framework: drupal8
+  site: mg-moodle-upstream-testing
+  id: b7997d02-ccd7-4f10-b55a-a2081def01bb
